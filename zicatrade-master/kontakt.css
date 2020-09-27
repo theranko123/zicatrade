@@ -7,12 +7,11 @@
 }
 
 body {
-	background: url(./Images/./3284165.jpg);
+	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-}
 nav {
 	background-color: #0d0d0ea2;
 	background-size: cover;
@@ -174,6 +173,39 @@ nav {
 #check {
 	display: none;
 }
+												/* Zavrsetak navbara */
+
+										
+.bekgnd{
+    text-align: center;
+	position: relative;
+	background-color: white;
+	top: 75px;
+	height: 900px;
+	width: 65%;
+	margin: auto;
+}
+
+.info {
+	text-align: center;
+	position: relative;
+	margin: 15px -40px;
+    padding: 250px 150px;
+	background-color: #ff0000;
+	top: -75px;
+	left: -22%;
+}
+
+
+.mailbox {
+	text-align: center;
+	position: relative;
+	margin: 15px -20px;
+    padding: 250px 350px;
+	background-color: #ff0000;
+	top:-75px;
+	left: -5%;
+}
 
 footer {
 	position: fixed;
@@ -317,7 +349,7 @@ footer {
 	margin-bottom: 5px;
 }
 
-/* Responsive Website */
+											/* Responsive Website */
 
 @media (max-width: 1500px) {
 	.links {
@@ -414,4 +446,4 @@ footer {
 	header {
 		padding-top: 40px;
 	}
-}
+
