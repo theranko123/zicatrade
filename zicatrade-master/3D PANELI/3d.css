@@ -427,7 +427,8 @@ footer {
 	width: 65%;
 	margin: auto;
 	background-color: white;
-	padding: 400px 100px;
+	padding-top: 400px;
+	padding-bottom:0px ;
 	border-style: solid;
 
 }
@@ -437,19 +438,17 @@ footer {
 	text-align: center;
 	margin-top: -250px;
 	border-style: solid;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 
 .vSlika img{
 	transition: 1s;
 	padding: 25px;
-	width: 400px;
+	width: 68%;
+	display: flex;
 }
 
-.vSlika img:hover{
-	
-	transform:scale(1.1);
-}
+
 
 
 
@@ -459,14 +458,14 @@ footer {
 	border-style: solid;
 	display: flex;
 	margin: 10px 50px;
-	
+
 }
 
 
 .slika img{
 	transition: 1s;
-	padding: 15px;
-	width: 200px;
+	padding:22px;
+	width: 100%;
 }
 
 .slika img:hover{
