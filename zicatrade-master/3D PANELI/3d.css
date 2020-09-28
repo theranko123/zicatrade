@@ -442,10 +442,11 @@ footer {
 }
 
 .vSlika img{
-	transition: 1s;
-	padding: 25px;
-	width: 68%;
+
+
+	width: 60%;
 	display: flex;
+	border-style: solid;
 }
 
 
@@ -454,17 +455,17 @@ footer {
 
 .slika{
 	position: relative;
-	width: auto;
+	width: 40%;
 	border-style: solid;
 	display: flex;
-	margin: 10px 50px;
-
+	margin-left: 60%;
+	top:-985px;
 }
 
 
 .slika img{
 	transition: 1s;
-	padding:22px;
+	padding: 22px;
 	width: 100%;
 }
 
